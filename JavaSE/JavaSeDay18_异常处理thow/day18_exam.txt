@@ -1,0 +1,33 @@
+1、系统预定义的三个最基本的注解
+@Override：用在重写的方法上
+@SuppressWarnings：抑制警告
+@Deprecated：标记xx已过时
+
+2、请列出常见的几个文档注解
+@param：表示方法有形参
+@return：表示方法的返回值类型不是void
+@throws：表示方法会抛出异常
+@author：表示作者
+@version：表示版本
+@since：表示起始版本
+@see：表示另请参阅
+...
+
+3、请解释4个元注解
+@Target：标记该注解可以用在xx上面，具体的位置由ElementType枚举的常量对象决定，例如：METHOD,TYPE,....
+@Retention：标记该注解可以滞留到xx时候，具体的生命周期由RetentionPolicy枚举的常量对象决定，例如：SOURCE,CLASS,RUNTIME
+@Documented：标记该注解是否可以被javadoc.exe等文档工具读取
+@Inherited：标记该注解是否可以被子类继承
+
+4、声明枚举的语法格式
+【修饰符】 enum 枚举类名 【implements 接口们】{
+	常量对象列表;
+	其他成员列表
+}
+
+
+5、声明注解的语法格式
+@元注解
+【修饰符】 @interface 注解名{
+	配置参数列表
+}
