@@ -1,0 +1,6 @@
+1、练习1：
+把本组学员的姓名（String）存储到一个ArrayList中，并且用foreach和Iterator分别遍历
+2、练习2：
+把本组学员的对象（Student）存储到一个ArrayList中，并且用foreach和Iterator分别遍历
+3、练习3：
+把本组学员的姓名，和他的女（男）朋友们的姓名存在到一个HashMap中，并且用entrySet遍历显示
